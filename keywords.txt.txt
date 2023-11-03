@@ -1,0 +1,20 @@
+# Define the main keywords for your code
+IConverter	KEYWORD1
+MPU6050		KEYWORD1
+begin		KEYWORD2
+getRawAccelX	KEYWORD2
+getRawAccelY	KEYWORD2
+getRawAccelZ	KEYWORD2
+getRawTemperature	KEYWORD2
+getTemperatureInC	KEYWORD2
+getTemperatureInF	KEYWORD2
+getRawGyroX	KEYWORD2
+getRawGyroY	KEYWORD2
+getRawGyroZ	KEYWORD2
+getAllData	KEYWORD2
+getFullAccelInG	KEYWORD2
+getFullGyroInLSB	KEYWORD2
+setAddress	KEYWORD2
+convertAccelToG	KEYWORD2
+convertGyroToLSB	KEYWORD2
+toString	KEYWORD2
