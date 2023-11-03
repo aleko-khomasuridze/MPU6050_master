@@ -1,8 +1,5 @@
 # MPU6050_master
 
-```markdown
-# Arduino MPU6050 Interface
-
 The Arduino MPU6050 Interface is a library that simplifies the interaction with the MPU6050 accelerometer and gyroscope sensor using the Arduino platform. This library provides a convenient way to initialize the sensor, read raw sensor data, and convert these values into meaningful units. It also includes methods to set the I2C address and format the object as a string.
 
 ## Table of Contents
