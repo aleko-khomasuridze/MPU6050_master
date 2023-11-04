@@ -126,7 +126,7 @@ double* MPU6050::getFullAccelInG(){
   Wire.endTransmission(false);
   Wire.requestFrom(MPU6050_ADDR, 6, true);
   for(uint8_t i = 0; i < 3/*lenght*/; i++)
-    data[i] = this->convertAccelToG((int)(Wire.read() << 8 | Wire.read()));
+    data[i] = this::convertAccelToG((int)(Wire.read() << 8 | Wire.read()));
   return data;
 }
 
@@ -139,7 +139,7 @@ double* MPU6050::getFullGyroInLSB(){
   Wire.endTransmission(false);
   Wire.requestFrom(MPU6050_ADDR, 6, true);
   for(uint8_t i = 0; i < 3/*lenght*/; i++)
-    data[i] = this->convertGyroToLSB((int)(Wire.read() << 8 | Wire.read()));
+    data[i] = this::convertGyroToLSB((int)(Wire.read() << 8 | Wire.read()));
   return data;
 }
 
