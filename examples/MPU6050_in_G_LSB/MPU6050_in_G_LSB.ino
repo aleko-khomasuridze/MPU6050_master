@@ -37,9 +37,9 @@ void setup() {
 
 void loop() {
   // Read sensor data
-  double accelX = MPU6050::convertAccelToG(mpu.getRawAccelX());
-  double accelY = MPU6050::convertAccelToG(mpu.getRawAccelY());
-  double accelZ = MPU6050::convertAccelToG(mpu.getRawAccelZ());
+  double accelXInG = MPU6050::convertAccelToG(mpu.getRawAccelX());
+  double accelYInG = MPU6050::convertAccelToG(mpu.getRawAccelY());
+  double accelZInG = MPU6050::convertAccelToG(mpu.getRawAccelZ());
   double gyroXInLSB = MPU6050::convertGyroToLSB(mpu.getRawGyroX());
   double gyroYInLSB = MPU6050::convertGyroToLSB(mpu.getRawGyroY());
   double gyroZInLSB = MPU6050::convertGyroToLSB(mpu.getRawGyroZ());
